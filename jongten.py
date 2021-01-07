@@ -4,8 +4,7 @@ import random
 from mahjong.hand_calculating.hand import HandCalculator
 from mahjong.tile import TilesConverter
 from mahjong.hand_calculating.hand_config import HandConfig
-from mahjong.constants import DISPLAY_WINDS
-
+from util import DISPLAY_WINDS_JP
 calculator = HandCalculator()
 
 
@@ -33,7 +32,7 @@ def main():
 
     if conf['is_riichi']:
         question_caption += 'リーチ有 '
-    question_caption += f"場風: {DISPLAY_WINDS[conf['round_wind']]} 自風: {DISPLAY_WINDS[conf['player_wind']]}"
+    question_caption += f"場風: {DISPLAY_WINDS_JP[conf['round_wind']]} 自風: {DISPLAY_WINDS_JP[conf['player_wind']]}"
 
     print(hand.get_figure())
     print(question_caption)
