@@ -1,4 +1,4 @@
-from question import Question
+from jongten.question import Question
 
 # 平和
 PINFU = Question('123345', '22567', '345', {

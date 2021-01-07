@@ -1,11 +1,14 @@
-from util import get_random_kaze_set, get_is_or_not
-from questions import questions
+
+from jongten.util import get_random_kaze_set, get_is_or_not, DISPLAY_WINDS_JP
+from jongten.questions import questions
 import random
 from mahjong.hand_calculating.hand import HandCalculator
 from mahjong.tile import TilesConverter
 from mahjong.hand_calculating.hand_config import HandConfig
 from mahjong.constants import EAST
-from util import DISPLAY_WINDS_JP
+
+__version__ = '0.1.8'
+
 calculator = HandCalculator()
 
 
@@ -59,7 +62,3 @@ def main():
             print('正解!!')
         else:
             print(f"不正解!! 正解は {result.cost['main']}")
-
-
-if __name__ == "__main__":
-    main()

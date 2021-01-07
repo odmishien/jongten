@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jongten"
-version = "0.1.3"
+version = "0.1.7"
 description = "CLI trainer for calculating riichi-mahjong points"
 authors = ["odmishien <tmtm.yagi.007@gmail.com>"]
 repository = "http://github.com/odmishien/jongten"
