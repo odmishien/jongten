@@ -27,9 +27,9 @@ def main():
 
     question_caption = ''
     if conf['is_tsumo']:
-        question_caption += f"ツモ {hand.get_win_tile()} "
+        question_caption += f"ツモ:{hand.get_win_tile_figure()} "
     else:
-        question_caption += f"ロン {hand.get_win_tile()} "
+        question_caption += f"ロン:{hand.get_win_tile_figure()} "
 
     if conf['is_riichi']:
         question_caption += 'リーチ有 '
