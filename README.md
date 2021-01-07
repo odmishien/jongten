@@ -8,8 +8,16 @@ CLI trainer for calculating riichi-mahjong points🀄️
 
 <!-- toc -->
 - [🧮🀄️jongten🀄️🧮](#️jongten️)
+- [Installation](#installation)
 - [Usage](#usage)
 <!-- tocstop -->
+
+# Installation
+<!-- installation -->
+```sh-session
+pip install jongten
+```
+<!-- installationstop -->
 
 # Usage
 <!-- usage -->
