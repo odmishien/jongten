@@ -33,6 +33,8 @@ def main():
 
     if config.is_riichi:
         question_caption += 'リーチ有 '
+    else:
+        question_caption += 'リーチ無 '
     question_caption += f"場風: {DISPLAY_WINDS_JP[config.round_wind]} 自風: {DISPLAY_WINDS_JP[config.player_wind]}"
 
     print(hand.get_figure())
