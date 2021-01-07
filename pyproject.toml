@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "jongten"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI trainer for calculating riichi-mahjong points"
 authors = ["odmishien <tmtm.yagi.007@gmail.com>"]
+repository = "http://github.com/odmishien/jongten"
+homepage = "http://github.com/odmishien/jongten"
+readme = "README.md"
+license = "MIT"
+keywords = ["mahjong", "CLI"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
